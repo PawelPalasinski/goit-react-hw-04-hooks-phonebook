@@ -62,7 +62,7 @@ function App() {
         contacts={getVisibleContacts(contacts, filter)}
         onRemove={handleDeleteContact}
       >
-        <Filter onChange={handleFilterChange} />
+        <Filter onFilter={handleFilterChange} />
       </ContactList>
     </>
   );
